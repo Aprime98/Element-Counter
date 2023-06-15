@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://m.media-amazon.com/images/I/51A445eaJrL.jpg" type="image/x-icon">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="Univ.css">
+</head>
+
+<body class="img">
+    <div
+        class="text-2xl lg:text-4xl font-bold flex flex-col justify-center items-center gap-10 mt-24 p-12 w-4/5 lg:w-4/6 mx-auto rounded-2xl bg-gray-100">
+
+        <h1 class="text-center">Number of elements.</h1>
+        <h2 id="count-el">0</h2>
+
+        <div class="flex flex-col lg:flex-row gap-4 justify-center items-center">
+            <button id="increment-btn" class="bg-red-400 px-3 py-1 rounded-xl uppercase w-[180px] text-lg lg:text-xl"
+                onclick="increment()">Increment</button>
+
+            <button id="save-btn" onclick="save()"
+                class="bg-green-400 px-3 py-1 rounded-xl uppercase w-[180px] text-lg lg:text-xl">Save
+            </button>
+        </div>
+
+        <p class="text-lg lg:text-xl" id="save-el">Previous entires: </p>
+        <!-- <h3 class="text-xl " id="welcome-el">Hey there</h3> -->
+    </div>
+    <script src="main.jsx"></script>
+</body>
+
+</html>
